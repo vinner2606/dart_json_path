@@ -20,11 +20,6 @@ class JsonPathImpl implements JsonPath {
   }
 
   @override
-  dynamic read2(String json, String path) {
-    return JsonPathReader2.getInsatnce().read(json, path);
-  }
-
-  @override
   dynamic delete(String json, String path) {
     return JsonPathDeleter.getInsatnce().delete(json, path);
   }

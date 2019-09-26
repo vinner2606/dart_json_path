@@ -3,7 +3,7 @@ class JsonPathUtility {
     RegExp exp = new RegExp("\[[0-9]*\]");
     if (exp.hasMatch(str)) {
       Match match = exp.firstMatch(str);
-      return int.tryParse(str.substring(match.start+1, match.end-1));
+      return int.tryParse(str.substring(match.start + 1, match.end - 1));
     }
     return -1;
   }

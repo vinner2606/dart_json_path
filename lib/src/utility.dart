@@ -1,7 +1,4 @@
-import 'dart:async';
 import 'dart:convert';
-import 'dart:io';
-import 'dart:math' as math;
 
 class Utility {
   Utility._internal();
@@ -57,5 +54,6 @@ class Utility {
     } else {
       throw Exception("Invalid type casting exception $value");
     }
+    return value;
   }
 }
