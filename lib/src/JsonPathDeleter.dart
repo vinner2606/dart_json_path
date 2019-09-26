@@ -1,6 +1,5 @@
 import 'dart:convert';
 
-import 'package:dart_json_path/src/InvalidJsonException.dart';
 import 'package:dart_json_path/src/JsonPathUtility.dart';
 
 class JsonPathDeleter with JsonPathUtility {

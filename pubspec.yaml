@@ -1,8 +1,7 @@
 name: dart_json_path
-description: A Flutter plugin which support jsonPath on jsonString data.
-  It is utility for reading and writing data from json.
-  It is well tested on project and working fine in terms of functionallity.
-version: 0.0.2
+description: A Flutter plugin which support read, write and delete on json string using json Path.
+
+version: 1.0.0
 author: vinay pratap singh <vinner2606@gmail.com>
 homepage: https://github.com/vinner2606/dart_json_path
 
